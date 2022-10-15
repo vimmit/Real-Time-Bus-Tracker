@@ -1,9 +1,9 @@
- // TODO: add your own access token
+ // add your own access token
  mapboxgl.accessToken =
  'Copy your mapgl access token here';
 
  
- // create the map object using mapboxgl.map() function
+ // create the map object using mapboxgl.Map() function
  let map = new mapboxgl.Map({
    container: 'map',
    style: 'mapbox://styles/mapbox/streets-v11',
