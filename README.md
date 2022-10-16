@@ -1,5 +1,5 @@
 # Real-Time-Bus-Tracker
-Shows location of buses between MIT and Harvard in real time.
+Shows location of buses between MIT and Harvard in real time. It uses asynchronous javascript to get the bus locations from the MIT api for a particular route. 
 
 How to Run: Clone the repository in a folder on your computer. In the mapanimation.js, add your access token from the mapbox website. To obtain an access token, sign in to Mapbox and visit the Account Apps page. Get a public access token and copy it to the token variable in mapanimation.js file. Copy the index.html file into your browser, click on "Show stops between Harvard and MIT" button. It will show you the markers for various buses going on that route. The markers move after every 12 seconds to show the current position of the bus.
 
